@@ -14,6 +14,5 @@ function loading() {
 let status = 0;
 $('#runBtn').on('click', () => {
 	interval = window.setInterval(loading, 1000)
-
-	
+	$('#runBtn').attr('disabled', true)
 })
