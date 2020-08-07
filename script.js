@@ -6,7 +6,7 @@ function loading() {
 	if(progress / 100 == 1) {
 		window.clearInterval(interval)
 	}
-	$('#loadingBar').css('width', progress)
+	$('#loadingBar').css('width', `${progress}%`)
 	$('#progress').html(`${progress}%`)
 }
 
